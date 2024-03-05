@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('managerLogin', function () {
-    return view('managerLogin.blade');
+    return view('managerLogin');
 });
